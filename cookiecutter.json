@@ -1,0 +1,9 @@
+{
+    "app_name": "Elm-Webpack-Cookie",
+    "maintainer": "Theo Salzmann",
+    "email": "dev@on3iro.de",
+    "short_description": "Scaffold Webpack Elm projects",
+    "repo_url": "git@github.com:on3iro/{{cookiecutter.app_name}}",
+    "issue_url": "http://github.com/on3iro/{{cookiecutter.app_name}}",
+    "homepage": ""
+}

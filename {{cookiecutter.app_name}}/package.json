@@ -1,20 +1,23 @@
 {
-  "name": "BGAchievements",
+  "name": "{{cookiecutter.app_name}}",
   "version": "1.0.0",
   "main": "index.html",
-  "description": "Basic template for new websites.",
+  "description": "{{cookiecutter.short_description}}",
   "repository": {
     "type": "git",
-    "url": "git@github.com:on3iro/BGAchievements.git"
+    "url": "{{cookiecutter.repo_url}}"
   },
   "keywords": [
     "HTML5",
     "CSS",
     "JavaScript",
-    "SASS"
+    "ES6",
+    "SASS",
+    "Elm",
+    "Webpack"
   ],
   "bugs": {
-    "url": "http://github.com:on3iro/BGAchievements/issues"
+    "url": "{{cookiecutter.issue_url}}"
   },
   "scripts": {
     "prestart": "npm run svg-sprite",
@@ -53,14 +56,12 @@
   "license": "UNLICENSED",
   "private": true,
   "author": {
-    "name": "fourseasons",
-    "email": "info@4so.de",
-    "url": "http://www.4so.de"
+    "name": "{{cookiecutter.maintainer}}",
+    "email": "{{cookiecutter.email}}",
+    "url": "{{cookiecutter.homepage}}"
   },
   "contributors": [
-    "Theo Salzmann",
-    "Janett Hickel",
-    "Henryk Kurze"
+    "Theo Salzmann"
   ],
   "homepage": "",
   "dependencies": {
