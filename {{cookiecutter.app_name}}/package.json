@@ -20,6 +20,7 @@
     "url": "{{cookiecutter.issue_url}}"
   },
   "scripts": {
+    "init": "npm i && elm-package install",
     "prestart": "npm run svg-sprite",
     "start": "cross-env NODE_ENV=development nf start",
     "api": "node api.js",
