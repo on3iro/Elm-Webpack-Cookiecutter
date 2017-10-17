@@ -48,4 +48,4 @@ Therefore this template includes:
 
 ## Versioning
 
-We can maybe use [SemVer](http://semver.org/) for versioning. For the versions available, see the [link to tags on this repository](/tags).
+We  use [SemVer](http://semver.org/) for versioning.
